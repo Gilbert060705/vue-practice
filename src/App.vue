@@ -1,26 +1,42 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container-fluid vh-100"> 
+    <div class="row">
+      <NavBar/>
+    </div>
+
+    <div class="row">
+      <div class="col-6"> 
+        <FoodDisplay/>
+      </div>
+      <div class="col-6">
+        <h1 class="font-weight-bold"> Login Here </h1>
+        <input type="text" placeholder = "Username"/> <br/> 
+        <input type="text" placeholder = "Password"/>
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class = "col-6 justify-content-start">
+        <h1 class="font-weight-bold text-monospace"> Your Body Deserve Healthy Food </h1>
+        <p class="font-weight-normal text-monospace"> Bon Apetit </p>
+      </div>
+    </div>
+
+    <div class = "row">
+      <p class = "text-muted"> Copyright Puede Education </p>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FoodDisplay from './components/FoodDisplay.vue';
+import NavBar from './components/NavBar.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FoodDisplay,
+    NavBar
   }
-}
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
