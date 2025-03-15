@@ -8,19 +8,19 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="1500">
-          <img class="d-block object-fit-cover" src="@/assets/images/beef-yakiniku.jpg" alt="First slide">
+          <img class="d-block object-fit-cover" src="@/assets/images/food_cover1.jpg" alt="First slide">
           <div class="carousel-caption d-none d-md-block">
             <h5>Sweet and Savory Yakiniku Beef</h5>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval= "1500">
-          <img class="d-block object-fit-cover" src="@/assets/images/Cap Jay.jpg" alt="Second slide">
+          <img class="d-block object-fit-cover" src="@/assets/images/food_cover2.jpg" alt="Second slide">
           <div class="carousel-caption d-none d-md-block">
             <h5>Oriental Cap Jay: Authentic Chinese Food</h5>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="1500">
-          <img class="d-block object-fit-cover" src="@/assets/images/Carbonara.jpg" alt="Third slide">
+          <img class="d-block object-fit-cover" src="@/assets/images/food_cover3.jpg" alt="Third slide">
           <div class="carousel-caption d-none d-md-block">
             <h5>Delicious Carbonara: Authentic Italian Dish</h5>
           </div>
